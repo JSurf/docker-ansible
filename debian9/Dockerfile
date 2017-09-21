@@ -24,7 +24,7 @@ RUN echo "===> Installing python, sudo, and supporting tools..."  && \
     \
     \
     echo "===> Installing Ansible..."   && \
-    pip install ansible                 && \
+    pip install "ansible>=2.3,<2.4"     && \
     \
     \
     \
